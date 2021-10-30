@@ -16,9 +16,9 @@ type Service struct {
 func New(
 	repository product.ProductRepository,
 	categoryServiceClient category.ICategoryClient,
-	) Service {
+) Service {
 	return Service{
-		repository: repository,
+		repository:            repository,
 		categoryServiceClient: categoryServiceClient,
 	}
 }
