@@ -6,7 +6,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.6.0
 	github.com/jackc/pgx/v4 v4.13.0
-	github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service v0.0.0-20211030113505-97b61a28a434
+	github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service v0.0.0-20211030120227-a15648ef59e4
 	github.com/kosenkovd/go-http-grpc/product-service/pkg/product-service v0.0.1
 	github.com/kr/text v0.2.0 // indirect
 	github.com/lib/pq v1.10.3
