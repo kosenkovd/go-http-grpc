@@ -1,6 +1,6 @@
 # Builder
 
-ARG GITHUB_PATH=github.com/kosenkovd/product-service
+ARG GITHUB_PATH=github.com/kosenkovd/go-http-grpc/product-service
 
 FROM golang:1.16-alpine AS builder
 RUN apk add --update make git protoc protobuf protobuf-dev curl

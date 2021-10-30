@@ -3,13 +3,13 @@ package product_service
 import (
 	"context"
 	"errors"
-	"github.com/kosenkovd/product-service/internal/model/product"
-	internal_errors "github.com/kosenkovd/product-service/internal/pkg/errors"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/model/product"
+	internal_errors "github.com/kosenkovd/go-http-grpc/product-service/internal/pkg/errors"
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	desc "github.com/kosenkovd/product-service/pkg/product-service"
+	desc "github.com/kosenkovd/go-http-grpc/product-service/pkg/product-service"
 )
 
 func (i *Implementation) CreateProductV1(ctx context.Context,

@@ -2,7 +2,7 @@ package category
 
 import (
 	"context"
-	category_service "github.com/kosenkovd/category-service/pkg/category-service"
+	category_service "github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

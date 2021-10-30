@@ -2,10 +2,10 @@ package product
 
 import (
 	"context"
-	"github.com/kosenkovd/product-service/internal/client/category"
-	product2 "github.com/kosenkovd/product-service/internal/model/product"
-	internal_errors "github.com/kosenkovd/product-service/internal/pkg/errors"
-	"github.com/kosenkovd/product-service/internal/repository/product"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/client/category"
+	product2 "github.com/kosenkovd/go-http-grpc/product-service/internal/model/product"
+	internal_errors "github.com/kosenkovd/go-http-grpc/product-service/internal/pkg/errors"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/repository/product"
 )
 
 type Service struct {

@@ -1,8 +1,8 @@
 package product_service
 
 import (
-	"github.com/kosenkovd/product-service/internal/service/product"
-	desc "github.com/kosenkovd/product-service/pkg/product-service"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/service/product"
+	desc "github.com/kosenkovd/go-http-grpc/product-service/pkg/product-service"
 )
 
 type Implementation struct {

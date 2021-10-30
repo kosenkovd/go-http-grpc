@@ -1,4 +1,4 @@
-module github.com/kosenkovd/product-service/pkg/product-service
+module github.com/kosenkovd/go-http-grpc/product-service/pkg/product-service
 
 go 1.17
 

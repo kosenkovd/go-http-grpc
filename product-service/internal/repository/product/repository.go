@@ -2,7 +2,7 @@ package product
 
 import (
 	"context"
-	"github.com/kosenkovd/product-service/internal/model/product"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/model/product"
 )
 
 type Repository struct {

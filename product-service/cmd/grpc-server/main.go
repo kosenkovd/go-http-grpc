@@ -2,10 +2,10 @@ package main
 
 import (
 	"flag"
-	category_service "github.com/kosenkovd/category-service/pkg/category-service"
-	"github.com/kosenkovd/product-service/internal/client/category"
-	product2 "github.com/kosenkovd/product-service/internal/repository/product"
-	"github.com/kosenkovd/product-service/internal/service/product"
+	category_service "github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/client/category"
+	product2 "github.com/kosenkovd/go-http-grpc/product-service/internal/repository/product"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/service/product"
 	"google.golang.org/grpc"
 
 	"github.com/rs/zerolog"
@@ -15,8 +15,8 @@ import (
 	_ "github.com/jackc/pgx/v4/stdlib"
 	_ "github.com/lib/pq"
 
-	"github.com/kosenkovd/product-service/internal/config"
-	"github.com/kosenkovd/product-service/internal/server"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/config"
+	"github.com/kosenkovd/go-http-grpc/product-service/internal/server"
 )
 
 func main() {
