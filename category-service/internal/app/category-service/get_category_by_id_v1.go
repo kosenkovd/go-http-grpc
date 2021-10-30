@@ -3,14 +3,14 @@ package category_service
 import (
 	"context"
 	"errors"
-	internal_errors "github.com/kosenkovd/category-service/internal/pkg/errors"
+	internal_errors "github.com/kosenkovd/go-http-grpc/category-service/internal/pkg/errors"
 	errorWrapper "github.com/pkg/errors"
 
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	desc "github.com/kosenkovd/category-service/pkg/category-service"
+	desc "github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service"
 )
 
 func (i *Implementation) GetCategoryByIdV1(

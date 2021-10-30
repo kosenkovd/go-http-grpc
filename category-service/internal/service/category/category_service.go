@@ -2,9 +2,9 @@ package category
 
 import (
 	"context"
-	internal_errors "github.com/kosenkovd/category-service/internal/pkg/errors"
-	"github.com/kosenkovd/category-service/internal/service/category/model"
-	"github.com/kosenkovd/category-service/internal/service/category/repository"
+	internal_errors "github.com/kosenkovd/go-http-grpc/category-service/internal/pkg/errors"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/service/category/model"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/service/category/repository"
 	"github.com/pkg/errors"
 )
 

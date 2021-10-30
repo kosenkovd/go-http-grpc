@@ -2,8 +2,8 @@ package main
 
 import (
 	"flag"
-	"github.com/kosenkovd/category-service/internal/service/category"
-	"github.com/kosenkovd/category-service/internal/service/category/repository"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/service/category"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/service/category/repository"
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
@@ -12,8 +12,8 @@ import (
 	_ "github.com/jackc/pgx/v4/stdlib"
 	_ "github.com/lib/pq"
 
-	"github.com/kosenkovd/category-service/internal/config"
-	"github.com/kosenkovd/category-service/internal/server"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/config"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/server"
 )
 
 func main() {

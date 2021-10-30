@@ -1,8 +1,8 @@
 package category_service
 
 import (
-	"github.com/kosenkovd/category-service/internal/service/category"
-	desc "github.com/kosenkovd/category-service/pkg/category-service"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/service/category"
+	desc "github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service"
 )
 
 type Implementation struct {

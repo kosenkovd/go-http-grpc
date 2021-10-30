@@ -1,4 +1,4 @@
-module github.com/kosenkovd/category-service/pkg/category-service
+module github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service
 
 go 1.17
 

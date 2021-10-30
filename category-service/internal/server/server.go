@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/kosenkovd/category-service/internal/service/category"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/service/category"
 	"net"
 	"net/http"
 	"os"
@@ -22,9 +22,9 @@ import (
 	grpc_ctxtags "github.com/grpc-ecosystem/go-grpc-middleware/tags"
 	grpc_opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
 
-	api "github.com/kosenkovd/category-service/internal/app/category-service"
-	"github.com/kosenkovd/category-service/internal/config"
-	desc "github.com/kosenkovd/category-service/pkg/category-service"
+	api "github.com/kosenkovd/go-http-grpc/category-service/internal/app/category-service"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/config"
+	desc "github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service"
 )
 
 type GrpcServer struct {

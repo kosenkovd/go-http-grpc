@@ -20,5 +20,3 @@ require (
 )
 
 replace github.com/kosenkovd/go-http-grpc/product-service/pkg/product-service => ./pkg/product-service
-
-replace github.com/kosenkovd/go-http-grpc/category-service/pkg/category-service => ./../category-service/pkg/category-service

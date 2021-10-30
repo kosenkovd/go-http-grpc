@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"github.com/kosenkovd/category-service/internal/service/category/model"
+	"github.com/kosenkovd/go-http-grpc/category-service/internal/service/category/model"
 )
 
 var categories = model.Categories{
