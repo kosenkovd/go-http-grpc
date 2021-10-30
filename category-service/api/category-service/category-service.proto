@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package kosenkovd.category_service.category_service.v1;
+
+import "google/api/annotations.proto";
+import "validate/validate.proto";
+
+option go_package = "pkg/category-service;category_service";
+
+service CategoryService {
+  rpc CategoryMethodV1 (CategoryMethodV1Request) returns (CategoryMethodV1Response) {
+    option (google.api.http) = {
+      post: "/v1/category"
+      body: "*"
+    };
+  }
+
+  rpc GetCategoryByIdV1 (GetCategoryByIdV1Request) returns (GetCategoryByIdV1Response) {
+    option (google.api.http) = {
+      post: "/v1/categoryById"
+      body: "*"
+    };
+  }
+}
+
+message Template {
+  uint64 id  = 1;
+  string name = 2;
+}
+
+message CategoryMethodV1Request {
+  uint64 id = 1 [(validate.rules).uint64.gt = 0];
+}
+
+message CategoryMethodV1Response {
+  Template value = 1;
+}
+
+message GetCategoryByIdV1Request {
+  uint64 id = 1 [(validate.rules).uint64.gt = 0];
+}
+
+message GetCategoryByIdV1Response {
+  Template value = 1;
+}
